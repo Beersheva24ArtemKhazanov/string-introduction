@@ -18,6 +18,7 @@ public class RegularExpressionsTest {
             "_nameNam3e01",
             "_nameName$",
             "name_$Name$",
+            "A",
             "__"
         };
         for (String example : examplesTrue) {
