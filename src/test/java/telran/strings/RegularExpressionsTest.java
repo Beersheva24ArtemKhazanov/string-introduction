@@ -19,7 +19,7 @@ public class RegularExpressionsTest {
             "_nameName$",
             "name_$Name$",
             "A",
-            "__"
+            "__",
         };
         for (String example : examplesTrue) {
             assertTrue(example.matches(javaVariable()));
@@ -30,7 +30,8 @@ public class RegularExpressionsTest {
             ":name",
             "01Name ",
             "",
-            "_"
+            "_",
+            "1"
         };
         for (String example : examplesFalse) {
             assertFalse(example.matches(javaVariable()));

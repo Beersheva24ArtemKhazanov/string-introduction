@@ -11,6 +11,6 @@ public class Strings {
         //TODO
         //regular expression for testing syntax of java variable names
         //only ASCII symbols are allowed 
-        return "^[a-zA-Z$0-9]$|^[a-zA-Z_$][a-zA-Z0-9_$]+$";
+        return "^[a-zA-Z$]$|^[a-zA-Z_$][a-zA-Z0-9_$]+$";
     }
 }
